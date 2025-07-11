@@ -1366,7 +1366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "139e9bbf-5bdd-4499-b376-bc34d4231ef2")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR044"
 			(at 82.55 86.36 0)
 			(effects
 				(font
@@ -1415,7 +1415,7 @@
 		(instances
 			(project "fiona-the-rat"
 				(path "/43ed14e6-1321-4146-9b65-20c47dea76d8/082554f7-b413-48b5-838b-cd54dde70938"
-					(reference "#PWR038")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1431,7 +1431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b0b2be1-1358-4c86-a9dc-bc12adf13180")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR048"
 			(at 135.89 130.81 0)
 			(effects
 				(font
@@ -1480,7 +1480,7 @@
 		(instances
 			(project "fiona-the-rat"
 				(path "/43ed14e6-1321-4146-9b65-20c47dea76d8/082554f7-b413-48b5-838b-cd54dde70938"
-					(reference "#PWR042")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1495,7 +1495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "298e3f0d-22ab-40ff-9f73-c4013538a339")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR046"
 			(at 135.89 100.33 0)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 		(instances
 			(project "fiona-the-rat"
 				(path "/43ed14e6-1321-4146-9b65-20c47dea76d8/082554f7-b413-48b5-838b-cd54dde70938"
-					(reference "#PWR040")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1559,7 +1559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d6991be-a7fd-4b6a-ab25-9ce5e7bbe34a")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR047"
 			(at 135.89 115.57 0)
 			(effects
 				(font
@@ -1608,7 +1608,7 @@
 		(instances
 			(project "fiona-the-rat"
 				(path "/43ed14e6-1321-4146-9b65-20c47dea76d8/082554f7-b413-48b5-838b-cd54dde70938"
-					(reference "#PWR041")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2310,7 +2310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e32a458c-f382-4f7b-8151-8cbdf317ac45")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR045"
 			(at 105.41 115.57 0)
 			(effects
 				(font
@@ -2359,7 +2359,7 @@
 		(instances
 			(project "fiona-the-rat"
 				(path "/43ed14e6-1321-4146-9b65-20c47dea76d8/082554f7-b413-48b5-838b-cd54dde70938"
-					(reference "#PWR039")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2479,7 +2479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f61f1c69-9d6a-455d-8e69-3eb431b70366")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR049"
 			(at 161.29 115.57 0)
 			(effects
 				(font
@@ -2528,7 +2528,7 @@
 		(instances
 			(project "fiona-the-rat"
 				(path "/43ed14e6-1321-4146-9b65-20c47dea76d8/082554f7-b413-48b5-838b-cd54dde70938"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

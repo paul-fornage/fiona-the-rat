@@ -620,6 +620,10 @@
     [
       "082554f7-b413-48b5-838b-cd54dde70938",
       "UI_buttons"
+    ],
+    [
+      "01544229-4a00-4cb1-8c85-f89f3cb61d79",
+      "LEDs"
     ]
   ],
   "text_variables": {}
