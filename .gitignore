@@ -29,3 +29,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+bom/ibom.html
+fiona-the-rat-top-3d.png
+fiona-the-rat.kicad_pcb.zip
+fiona-the-rat.png
+fiona-the-rat.step
