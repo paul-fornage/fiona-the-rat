@@ -5655,6 +5655,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 39.37) (xy 93.98 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070698af-51b7-4a70-a1fb-92a17b8870e6")
+	)
+	(wire
+		(pts
 			(xy 181.61 114.3) (xy 186.69 114.3)
 		)
 		(stroke
@@ -5675,6 +5685,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 36.83) (xy 90.17 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1bebc9-68aa-4521-88d1-3f24969212bd")
+	)
+	(wire
+		(pts
 			(xy 59.69 27.94) (xy 60.96 27.94)
 		)
 		(stroke
@@ -5692,6 +5712,16 @@
 			(type default)
 		)
 		(uuid "13ea0b6b-37cf-4214-b1a7-a51a2c48a288")
+	)
+	(wire
+		(pts
+			(xy 91.44 30.48) (xy 91.44 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14747576-5e44-4303-8023-493d139b36af")
 	)
 	(wire
 		(pts
@@ -5862,6 +5892,16 @@
 			(type default)
 		)
 		(uuid "20c2b9b6-b98d-408b-98e9-6ae53180fa2d")
+	)
+	(wire
+		(pts
+			(xy 90.17 39.37) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231eb728-8d97-445c-949f-15247a4515aa")
 	)
 	(wire
 		(pts
@@ -6085,7 +6125,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 31.75) (xy 99.06 33.02)
+			(xy 111.76 41.91) (xy 111.76 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6235,7 +6275,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 24.13) (xy 106.68 24.13)
+			(xy 116.84 34.29) (xy 119.38 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6645,6 +6685,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 41.91) (xy 96.52 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808b7fdb-71d7-49eb-97ee-c3d3ca3525ba")
+	)
+	(wire
+		(pts
 			(xy 118.11 29.21) (xy 118.11 25.4)
 		)
 		(stroke
@@ -6835,7 +6885,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 44.45) (xy 90.17 44.45)
+			(xy 106.68 44.45) (xy 90.17 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7295,6 +7345,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 41.91) (xy 96.52 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4493dee-1c09-41df-b151-0d7c0299f36f")
+	)
+	(wire
+		(pts
 			(xy 215.9 41.91) (xy 218.44 41.91)
 		)
 		(stroke
@@ -7365,7 +7425,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 31.75) (xy 93.98 44.45)
+			(xy 106.68 41.91) (xy 106.68 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7445,7 +7505,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 24.13) (xy 106.68 22.86)
+			(xy 119.38 34.29) (xy 119.38 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10159,16 +10219,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 106.68 22.86 0)
+		(at 119.38 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2ae6cf8b-7a21-4d92-9f11-afc5a98c8d89")
 		(property "Reference" "#PWR014"
-			(at 106.68 26.67 0)
+			(at 119.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,7 +10236,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 106.68 17.78 0)
+			(at 121.412 32.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,7 +10244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 22.86 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10194,7 +10253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 22.86 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10203,7 +10262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 106.68 22.86 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,16 +11409,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 33.02 0)
+		(at 111.76 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5197fb5d-4cbd-40cb-9c86-a23ecc6d01c2")
 		(property "Reference" "#PWR012"
-			(at 99.06 39.37 0)
+			(at 111.76 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11368,7 +11426,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 38.1 0)
+			(at 114.046 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +11434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 33.02 0)
+			(at 111.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,7 +11443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 33.02 0)
+			(at 111.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11394,7 +11452,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 33.02 0)
+			(at 111.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11819,6 +11877,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 96.52 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63a6d9c3-fc31-4f1a-856a-6b51540f54ab")
+		(property "Reference" "J21"
+			(at 101.6 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GPIO2"
+			(at 96.52 21.717 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 96.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 96.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7215115b-f718-4ce1-97d5-2a98656ae4f9")
+		)
+		(instances
+			(project "fiona-the-rat"
+				(path "/43ed14e6-1321-4146-9b65-20c47dea76d8"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 234.95 110.49 0)
 		(mirror y)
@@ -12088,6 +12211,71 @@
 			(project "fiona-the-rat"
 				(path "/43ed14e6-1321-4146-9b65-20c47dea76d8"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 91.44 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aa2b07f-921b-40a5-b92e-aacdd3193248")
+		(property "Reference" "J19"
+			(at 96.52 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GPIO0"
+			(at 91.44 21.717 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 91.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b31b190-7663-49d4-810e-59f149fb3aa0")
+		)
+		(instances
+			(project "fiona-the-rat"
+				(path "/43ed14e6-1321-4146-9b65-20c47dea76d8"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -13980,6 +14168,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 93.98 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd1d3d51-0d06-48a6-832c-8effc82b6dd3")
+		(property "Reference" "J20"
+			(at 99.06 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GPIO1"
+			(at 93.98 21.717 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 93.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 93.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc7a9d13-b457-41b7-b038-f06f2e2dc8e4")
+		)
+		(instances
+			(project "fiona-the-rat"
+				(path "/43ed14e6-1321-4146-9b65-20c47dea76d8"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 210.82 110.49 0)
 		(mirror y)
@@ -15621,7 +15874,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 17.78)
+		(at 104.14 27.94)
 		(size 12.7 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15636,7 +15889,7 @@
 		)
 		(uuid "01544229-4a00-4cb1-8c85-f89f3cb61d79")
 		(property "Sheetname" "LEDs"
-			(at 91.44 17.0684 0)
+			(at 104.14 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15645,7 +15898,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDs.kicad_sch"
-			(at 89.154 31.5726 90)
+			(at 101.854 41.7326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +15907,7 @@
 			)
 		)
 		(pin "DIN" input
-			(at 93.98 31.75 270)
+			(at 106.68 41.91 270)
 			(uuid "0b87797d-5763-4104-b044-7006364b552f")
 			(effects
 				(font
@@ -15664,7 +15917,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 99.06 31.75 270)
+			(at 111.76 41.91 270)
 			(uuid "c2fedd3d-8a55-438c-8ed1-5edfe21ccb10")
 			(effects
 				(font
@@ -15674,7 +15927,7 @@
 			)
 		)
 		(pin "VBAT" input
-			(at 104.14 24.13 0)
+			(at 116.84 34.29 0)
 			(uuid "3f13fccf-f735-4797-bdd9-1f7fd562e439")
 			(effects
 				(font
